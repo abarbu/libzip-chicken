@@ -1,0 +1,14 @@
+;;;  -*- Hen -*-
+
+((category data)
+ (author "Andrei Barbu")
+ (maintainer "Andrei Barbu")
+ (license "LGPL")
+ (synopsis "Bindings for libzip")
+ (depends setup-helper miscmacros check-errors condition-utils
+          traversal define-structure bind easyffi)
+ (test-depends test)
+ (files "libzip.meta" 
+        "libzip.release-info"
+        "libzip.scm" 
+        "libzip.setup"))

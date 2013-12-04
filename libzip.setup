@@ -1,0 +1,9 @@
+;;;  -*- Hen -*-
+
+(use setup-helper-mod)
+
+(verify-extension-name "libzip")
+
+(setup-shared-extension-module 'libzip (extension-version "1.0")
+  #:inline? #t #:types? #t
+  #:compile-options `(-O1 -d2 "-lzip -lz"))
