@@ -1,4 +1,4 @@
-== libzip-chicken ==
+== libzip ==
 
 This is a Chicken Scheme egg which contain bindings for libzip. It's
 currently undocumented but one day will be documented.
